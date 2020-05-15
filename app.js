@@ -1,11 +1,10 @@
 var http = require('http');
 var fs = require('fs');
 var index = fs.readFileSync('index.html');
-console.log('portttttttttttttttt ' +process.env.PORT);
+
 console.log(process.env);
 
-
-var port = process.env.PORT;
+var port = process.env.PORT || 8080;
 
 http.createServer(function (req, res){
     res.writeHead(200, {'Context-Type': 'text/plain'});
