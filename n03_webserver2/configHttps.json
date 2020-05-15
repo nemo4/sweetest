@@ -1,0 +1,9 @@
+{
+	"protocol":"https",
+	"port":443,
+   	"indexFile":"index.html",
+	"sslCertFile":{
+		"key":"../cert/server.key",
+		"cert":"../cert/server.cert"
+	}
+}
