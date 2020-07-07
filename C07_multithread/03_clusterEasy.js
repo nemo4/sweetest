@@ -47,7 +47,7 @@ if (cluster.isMaster) {
 		
 		// 마스터 -> 워커 send
 		cluster.workers[1].send('aaaaa');
-		cluster.workers[1].disconnect();
+		//cluster.workers[1].disconnect();
 //			cluster.workers[1].kill();
 	}, 2000);
     

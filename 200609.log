@@ -1,0 +1,1500 @@
+2020-06-08T22:21:13.052140+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:21:13.052140+00:00 app[web.1]: 'x-request-start': '1591654873050',
+2020-06-08T22:21:13.052141+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:21:13.052141+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:21:13.052142+00:00 app[web.1]: }
+2020-06-08T22:21:13.052559+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:21:13.054533+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:21:13.054645+00:00 app[web.1]: {
+2020-06-08T22:21:13.054646+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:21:13.054647+00:00 app[web.1]: dt: '2020-06-09 07:21:12',
+2020-06-08T22:21:13.054647+00:00 app[web.1]: lat: 37.5495395,
+2020-06-08T22:21:13.054647+00:00 app[web.1]: lng: 127.1332555
+2020-06-08T22:21:13.054648+00:00 app[web.1]: }
+2020-06-08T22:21:13.107102+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:21:13.107186+00:00 app[web.1]: null
+2020-06-08T22:21:13.107305+00:00 app[web.1]: 5edeb9d91e4a0600172d3767
+2020-06-08T22:23:14.463720+00:00 app[web.1]: {
+2020-06-08T22:23:14.463732+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:23:14.463732+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:23:14.463734+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:23:14.463736+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:23:14.463737+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:23:14.463738+00:00 app[web.1]: 'x-request-id': 'be0d9c96-d463-4200-a3e8-cd9cb45bf9eb',
+2020-06-08T22:23:14.463739+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:23:14.463739+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:23:14.463740+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:23:14.463740+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:23:14.463741+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:23:14.463741+00:00 app[web.1]: 'x-request-start': '1591654994460',
+2020-06-08T22:23:14.463741+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:23:14.463742+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:23:14.463742+00:00 app[web.1]: }
+2020-06-08T22:23:14.463849+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:23:14.463928+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:23:14.464030+00:00 app[web.1]: {
+2020-06-08T22:23:14.464031+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:23:14.464031+00:00 app[web.1]: dt: '2020-06-09 07:23:12',
+2020-06-08T22:23:14.464031+00:00 app[web.1]: lat: 37.5495281,
+2020-06-08T22:23:14.464032+00:00 app[web.1]: lng: 127.1332484
+2020-06-08T22:23:14.464032+00:00 app[web.1]: }
+2020-06-08T22:23:14.464369+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=be0d9c96-d463-4200-a3e8-cd9cb45bf9eb fwd="218.153.195.61" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:23:14.582781+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:23:14.582831+00:00 app[web.1]: null
+2020-06-08T22:23:14.582950+00:00 app[web.1]: 5edeba521e4a0600172d3768
+2020-06-08T22:24:13.069899+00:00 app[web.1]: {
+2020-06-08T22:24:13.069907+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:24:13.069908+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:24:13.069909+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:24:13.069910+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:24:13.069910+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:24:13.069911+00:00 app[web.1]: 'x-request-id': 'c2897e75-cb3a-4222-a709-d21022c1242c',
+2020-06-08T22:24:13.069911+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:24:13.069912+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:24:13.069912+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:24:13.069912+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:24:13.069913+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:24:13.069913+00:00 app[web.1]: 'x-request-start': '1591655053066',
+2020-06-08T22:24:13.069913+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:24:13.069914+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:24:13.069914+00:00 app[web.1]: }
+2020-06-08T22:24:13.070043+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:24:13.070135+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:24:13.070246+00:00 app[web.1]: {
+2020-06-08T22:24:13.070247+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:24:13.070247+00:00 app[web.1]: dt: '2020-06-09 07:24:12',
+2020-06-08T22:24:13.070248+00:00 app[web.1]: lat: 37.5494835,
+2020-06-08T22:24:13.070248+00:00 app[web.1]: lng: 127.1332871
+2020-06-08T22:24:13.070248+00:00 app[web.1]: }
+2020-06-08T22:24:13.072684+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=c2897e75-cb3a-4222-a709-d21022c1242c fwd="218.153.195.61" dyno=web.1 connect=1ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T22:24:13.159102+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:24:13.159286+00:00 app[web.1]: null
+2020-06-08T22:24:13.159387+00:00 app[web.1]: 5edeba8d1e4a0600172d3769
+2020-06-08T22:26:14.205546+00:00 app[web.1]: {
+2020-06-08T22:26:14.205556+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:26:14.205557+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:26:14.205558+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:26:14.205559+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:26:14.205560+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:26:14.205561+00:00 app[web.1]: 'x-request-id': '8dbc0c38-0a9f-41f2-a25b-862d7d91f899',
+2020-06-08T22:26:14.205561+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:26:14.205562+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:26:14.205562+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:26:14.205563+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:26:14.205563+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:26:14.205563+00:00 app[web.1]: 'x-request-start': '1591655174205',
+2020-06-08T22:26:14.205564+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:26:14.205564+00:00 app[web.1]: 'content-length': '86'
+2020-06-08T22:26:14.205564+00:00 app[web.1]: }
+2020-06-08T22:26:14.205843+00:00 app[web.1]: 86 bytes of data
+2020-06-08T22:26:14.206030+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:26:14.209872+00:00 app[web.1]: {
+2020-06-08T22:26:14.209873+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:26:14.209874+00:00 app[web.1]: dt: '2020-06-09 07:26:12',
+2020-06-08T22:26:14.209874+00:00 app[web.1]: lat: 37.5495134,
+2020-06-08T22:26:14.209875+00:00 app[web.1]: lng: 127.133251
+2020-06-08T22:26:14.209875+00:00 app[web.1]: }
+2020-06-08T22:26:14.228401+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=8dbc0c38-0a9f-41f2-a25b-862d7d91f899 fwd="218.153.195.61" dyno=web.1 connect=1ms service=8ms status=200 bytes=174 protocol=https
+2020-06-08T22:26:14.356858+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:26:14.356895+00:00 app[web.1]: null
+2020-06-08T22:26:14.356946+00:00 app[web.1]: 5edebb061e4a0600172d376a
+2020-06-08T22:27:13.069057+00:00 app[web.1]: {
+2020-06-08T22:27:13.069068+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:27:13.069068+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:27:13.069069+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:27:13.069071+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:27:13.069072+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:27:13.069072+00:00 app[web.1]: 'x-request-id': 'fa667959-7505-4c6a-b9db-106e1fba0449',
+2020-06-08T22:27:13.069073+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:27:13.069073+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:27:13.069074+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:27:13.069074+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:27:13.069074+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:27:13.069075+00:00 app[web.1]: 'x-request-start': '1591655233070',
+2020-06-08T22:27:13.069075+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:27:13.069075+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:27:13.069076+00:00 app[web.1]: }
+2020-06-08T22:27:13.069374+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:27:13.069471+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:27:13.069566+00:00 app[web.1]: {
+2020-06-08T22:27:13.069566+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:27:13.069566+00:00 app[web.1]: dt: '2020-06-09 07:27:12',
+2020-06-08T22:27:13.069567+00:00 app[web.1]: lat: 37.5494854,
+2020-06-08T22:27:13.069567+00:00 app[web.1]: lng: 127.1332853
+2020-06-08T22:27:13.069567+00:00 app[web.1]: }
+2020-06-08T22:27:13.075111+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=fa667959-7505-4c6a-b9db-106e1fba0449 fwd="218.153.195.61" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:27:13.117369+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:27:13.117446+00:00 app[web.1]: null
+2020-06-08T22:27:13.117512+00:00 app[web.1]: 5edebb411e4a0600172d376b
+2020-06-08T22:29:14.457981+00:00 app[web.1]: {
+2020-06-08T22:29:14.457990+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:29:14.457990+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:29:14.457991+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:29:14.457992+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:29:14.457993+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:29:14.457994+00:00 app[web.1]: 'x-request-id': 'e3dd9121-2217-4dab-8d3d-e7973ebcb44b',
+2020-06-08T22:29:14.457994+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:29:14.457995+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:29:14.457995+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:29:14.457995+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:29:14.457996+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:29:14.457996+00:00 app[web.1]: 'x-request-start': '1591655354459',
+2020-06-08T22:29:14.457997+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:29:14.457997+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:29:14.457997+00:00 app[web.1]: }
+2020-06-08T22:29:14.458180+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:29:14.458309+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:29:14.458450+00:00 app[web.1]: {
+2020-06-08T22:29:14.458451+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:29:14.458451+00:00 app[web.1]: dt: '2020-06-09 07:29:12',
+2020-06-08T22:29:14.458452+00:00 app[web.1]: lat: 37.5495383,
+2020-06-08T22:29:14.458452+00:00 app[web.1]: lng: 127.1332512
+2020-06-08T22:29:14.458452+00:00 app[web.1]: }
+2020-06-08T22:29:14.471764+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=e3dd9121-2217-4dab-8d3d-e7973ebcb44b fwd="218.153.195.61" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:29:14.614908+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:29:14.614973+00:00 app[web.1]: null
+2020-06-08T22:29:14.617737+00:00 app[web.1]: 5edebbba1e4a0600172d376c
+2020-06-08T22:30:13.150374+00:00 app[web.1]: {
+2020-06-08T22:30:13.150415+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:30:13.150416+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:30:13.150417+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:30:13.150418+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:30:13.150419+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:30:13.150420+00:00 app[web.1]: 'x-request-id': '218e9c06-3d62-49b1-a830-8ac81767e627',
+2020-06-08T22:30:13.150421+00:00 app[web.1]: 'x-forwarded-for': '218.153.195.61',
+2020-06-08T22:30:13.150421+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:30:13.150421+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:30:13.150422+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:30:13.150422+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:30:13.150422+00:00 app[web.1]: 'x-request-start': '1591655413152',
+2020-06-08T22:30:13.150423+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:30:13.150423+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:30:13.150424+00:00 app[web.1]: }
+2020-06-08T22:30:13.153841+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:30:13.153969+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:30:13.154099+00:00 app[web.1]: {
+2020-06-08T22:30:13.154100+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:30:13.154101+00:00 app[web.1]: dt: '2020-06-09 07:30:12',
+2020-06-08T22:30:13.154101+00:00 app[web.1]: lat: 37.5495014,
+2020-06-08T22:30:13.154102+00:00 app[web.1]: lng: 127.1332746
+2020-06-08T22:30:13.154102+00:00 app[web.1]: }
+2020-06-08T22:30:13.160801+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=218e9c06-3d62-49b1-a830-8ac81767e627 fwd="218.153.195.61" dyno=web.1 connect=1ms service=6ms status=200 bytes=174 protocol=https
+2020-06-08T22:30:13.214101+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:30:13.214331+00:00 app[web.1]: null
+2020-06-08T22:30:13.214443+00:00 app[web.1]: 5edebbf51e4a0600172d376d
+2020-06-08T22:32:14.048833+00:00 app[web.1]: {
+2020-06-08T22:32:14.048844+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:32:14.048844+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:32:14.048845+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:32:14.048847+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:32:14.048847+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:32:14.048848+00:00 app[web.1]: 'x-request-id': 'be9e85f7-00db-4ad1-b98b-00bd447ac5e7',
+2020-06-08T22:32:14.048848+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.30',
+2020-06-08T22:32:14.048848+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:32:14.048849+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:32:14.048849+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:32:14.048849+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:32:14.048850+00:00 app[web.1]: 'x-request-start': '1591655534046',
+2020-06-08T22:32:14.048850+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:32:14.048850+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:32:14.048850+00:00 app[web.1]: }
+2020-06-08T22:32:14.049126+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:32:14.049246+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:32:14.049340+00:00 app[web.1]: {
+2020-06-08T22:32:14.049341+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:32:14.049341+00:00 app[web.1]: dt: '2020-06-09 07:32:12',
+2020-06-08T22:32:14.049341+00:00 app[web.1]: lat: 37.5490526,
+2020-06-08T22:32:14.049342+00:00 app[web.1]: lng: 127.1330675
+2020-06-08T22:32:14.049342+00:00 app[web.1]: }
+2020-06-08T22:32:14.050502+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=be9e85f7-00db-4ad1-b98b-00bd447ac5e7 fwd="223.38.30.30" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:32:14.192877+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:32:14.192946+00:00 app[web.1]: null
+2020-06-08T22:32:14.193005+00:00 app[web.1]: 5edebc6e1e4a0600172d376e
+2020-06-08T22:33:13.089537+00:00 app[web.1]: {
+2020-06-08T22:33:13.089548+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:33:13.089548+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:33:13.089549+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:33:13.089551+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:33:13.089551+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:33:13.089552+00:00 app[web.1]: 'x-request-id': '6d3229ce-d035-46e0-8730-2207e01cb8a7',
+2020-06-08T22:33:13.089553+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.30',
+2020-06-08T22:33:13.089553+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:33:13.089553+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:33:13.089554+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:33:13.089554+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:33:13.089555+00:00 app[web.1]: 'x-request-start': '1591655593087',
+2020-06-08T22:33:13.089555+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:33:13.089556+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:33:13.089556+00:00 app[web.1]: }
+2020-06-08T22:33:13.089830+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:33:13.090004+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:33:13.090721+00:00 app[web.1]: {
+2020-06-08T22:33:13.090722+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:33:13.090723+00:00 app[web.1]: dt: '2020-06-09 07:33:12',
+2020-06-08T22:33:13.090723+00:00 app[web.1]: lat: 37.5488488,
+2020-06-08T22:33:13.090724+00:00 app[web.1]: lng: 127.1318961
+2020-06-08T22:33:13.090724+00:00 app[web.1]: }
+2020-06-08T22:33:13.100394+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=6d3229ce-d035-46e0-8730-2207e01cb8a7 fwd="223.38.30.30" dyno=web.1 connect=0ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T22:33:13.135459+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:33:13.136224+00:00 app[web.1]: null
+2020-06-08T22:33:13.136325+00:00 app[web.1]: 5edebca91e4a0600172d376f
+2020-06-08T22:34:14.024268+00:00 app[web.1]: {
+2020-06-08T22:34:14.024282+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:34:14.024283+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:34:14.024284+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:34:14.024287+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:34:14.024288+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:34:14.024289+00:00 app[web.1]: 'x-request-id': '641dc514-3390-427d-8223-1bd3c33a0726',
+2020-06-08T22:34:14.024289+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.30',
+2020-06-08T22:34:14.024289+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:34:14.024290+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:34:14.024290+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:34:14.024291+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:34:14.024291+00:00 app[web.1]: 'x-request-start': '1591655654020',
+2020-06-08T22:34:14.024291+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:34:14.024292+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:34:14.024292+00:00 app[web.1]: }
+2020-06-08T22:34:14.024775+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:34:14.024878+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:34:14.024937+00:00 app[web.1]: {
+2020-06-08T22:34:14.024938+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:34:14.024938+00:00 app[web.1]: dt: '2020-06-09 07:34:12',
+2020-06-08T22:34:14.024938+00:00 app[web.1]: lat: 37.5485985,
+2020-06-08T22:34:14.024939+00:00 app[web.1]: lng: 127.1311419
+2020-06-08T22:34:14.024939+00:00 app[web.1]: }
+2020-06-08T22:34:14.026170+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=641dc514-3390-427d-8223-1bd3c33a0726 fwd="223.38.30.30" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:34:14.160592+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:34:14.160656+00:00 app[web.1]: null
+2020-06-08T22:34:14.160740+00:00 app[web.1]: 5edebce61e4a0600172d3770
+2020-06-08T22:35:13.170361+00:00 app[web.1]: {
+2020-06-08T22:35:13.170451+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:35:13.170452+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:35:13.170454+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:35:13.170455+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:35:13.170455+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:35:13.170456+00:00 app[web.1]: 'x-request-id': '88a6906a-2faf-4b81-915c-595bc338e642',
+2020-06-08T22:35:13.170457+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.30',
+2020-06-08T22:35:13.170457+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:35:13.170457+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:35:13.170458+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:35:13.170458+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:35:13.170458+00:00 app[web.1]: 'x-request-start': '1591655713162',
+2020-06-08T22:35:13.170459+00:00 app[web.1]: 'total-route-time': '6',
+2020-06-08T22:35:13.170459+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:35:13.170460+00:00 app[web.1]: }
+2020-06-08T22:35:13.170496+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:35:13.170587+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:35:13.170677+00:00 app[web.1]: {
+2020-06-08T22:35:13.170678+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:35:13.170678+00:00 app[web.1]: dt: '2020-06-09 07:35:12',
+2020-06-08T22:35:13.170679+00:00 app[web.1]: lat: 37.5490191,
+2020-06-08T22:35:13.170679+00:00 app[web.1]: lng: 127.1301259
+2020-06-08T22:35:13.170680+00:00 app[web.1]: }
+2020-06-08T22:35:13.171889+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=88a6906a-2faf-4b81-915c-595bc338e642 fwd="223.38.30.30" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:35:13.209811+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:35:13.209943+00:00 app[web.1]: null
+2020-06-08T22:35:13.210026+00:00 app[web.1]: 5edebd211e4a0600172d3771
+2020-06-08T22:37:14.297135+00:00 app[web.1]: {
+2020-06-08T22:37:14.297146+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:37:14.297147+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:37:14.297148+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:37:14.297149+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:37:14.297149+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:37:14.297150+00:00 app[web.1]: 'x-request-id': '027009d5-8981-4d56-ae4c-f36906e7f3c1',
+2020-06-08T22:37:14.297151+00:00 app[web.1]: 'x-forwarded-for': '223.38.29.189',
+2020-06-08T22:37:14.297151+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:37:14.297152+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:37:14.297152+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:37:14.297152+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:37:14.297153+00:00 app[web.1]: 'x-request-start': '1591655834292',
+2020-06-08T22:37:14.297153+00:00 app[web.1]: 'total-route-time': '2',
+2020-06-08T22:37:14.297153+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:37:14.297154+00:00 app[web.1]: }
+2020-06-08T22:37:14.297372+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:37:14.297531+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:37:14.297738+00:00 app[web.1]: {
+2020-06-08T22:37:14.297739+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:37:14.297740+00:00 app[web.1]: dt: '2020-06-09 07:37:12',
+2020-06-08T22:37:14.297740+00:00 app[web.1]: lat: 37.5494224,
+2020-06-08T22:37:14.297740+00:00 app[web.1]: lng: 127.1291101
+2020-06-08T22:37:14.297741+00:00 app[web.1]: }
+2020-06-08T22:37:14.300363+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=027009d5-8981-4d56-ae4c-f36906e7f3c1 fwd="223.38.29.189" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:37:14.412762+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:37:14.412884+00:00 app[web.1]: null
+2020-06-08T22:37:14.413013+00:00 app[web.1]: 5edebd9a1e4a0600172d3772
+2020-06-08T22:38:13.229051+00:00 app[web.1]: {
+2020-06-08T22:38:13.229109+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:38:13.229110+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:38:13.229111+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:38:13.229111+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:38:13.229112+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:38:13.229113+00:00 app[web.1]: 'x-request-id': 'db9f79bb-5c0e-4987-b0f9-93fa2a2543a3',
+2020-06-08T22:38:13.229113+00:00 app[web.1]: 'x-forwarded-for': '223.38.29.189',
+2020-06-08T22:38:13.229113+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:38:13.229114+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:38:13.229114+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:38:13.229114+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:38:13.229115+00:00 app[web.1]: 'x-request-start': '1591655893227',
+2020-06-08T22:38:13.229115+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:38:13.229115+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:38:13.229116+00:00 app[web.1]: }
+2020-06-08T22:38:13.229471+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:38:13.229559+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:38:13.229669+00:00 app[web.1]: {
+2020-06-08T22:38:13.229670+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:38:13.229670+00:00 app[web.1]: dt: '2020-06-09 07:38:12',
+2020-06-08T22:38:13.229671+00:00 app[web.1]: lat: 37.5495691,
+2020-06-08T22:38:13.229671+00:00 app[web.1]: lng: 127.1287622
+2020-06-08T22:38:13.229671+00:00 app[web.1]: }
+2020-06-08T22:38:13.231886+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=db9f79bb-5c0e-4987-b0f9-93fa2a2543a3 fwd="223.38.29.189" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:38:13.279314+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:38:13.279367+00:00 app[web.1]: null
+2020-06-08T22:38:13.279436+00:00 app[web.1]: 5edebdd51e4a0600172d3773
+2020-06-08T22:39:14.028231+00:00 app[web.1]: {
+2020-06-08T22:39:14.028243+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:39:14.028244+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:39:14.028245+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:39:14.028246+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:39:14.028247+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:39:14.028248+00:00 app[web.1]: 'x-request-id': '5d304aeb-2652-41b8-9e3e-9837c48a2b53',
+2020-06-08T22:39:14.028248+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:39:14.028249+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:39:14.028249+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:39:14.028250+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:39:14.028250+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:39:14.028250+00:00 app[web.1]: 'x-request-start': '1591655954029',
+2020-06-08T22:39:14.028251+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:39:14.028251+00:00 app[web.1]: 'content-length': '86'
+2020-06-08T22:39:14.028251+00:00 app[web.1]: }
+2020-06-08T22:39:14.028750+00:00 app[web.1]: 86 bytes of data
+2020-06-08T22:39:14.028865+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:39:14.028988+00:00 app[web.1]: {
+2020-06-08T22:39:14.028989+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:39:14.028989+00:00 app[web.1]: dt: '2020-06-09 07:39:12',
+2020-06-08T22:39:14.028990+00:00 app[web.1]: lat: 37.549655,
+2020-06-08T22:39:14.028990+00:00 app[web.1]: lng: 127.1277912
+2020-06-08T22:39:14.028991+00:00 app[web.1]: }
+2020-06-08T22:39:14.034941+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=5d304aeb-2652-41b8-9e3e-9837c48a2b53 fwd="223.38.30.113" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:39:14.124494+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:39:14.124550+00:00 app[web.1]: null
+2020-06-08T22:39:14.124615+00:00 app[web.1]: 5edebe121e4a0600172d3774
+2020-06-08T22:40:13.163868+00:00 app[web.1]: {
+2020-06-08T22:40:13.163916+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:40:13.163917+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:40:13.163917+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:40:13.163918+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:40:13.163919+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:40:13.163919+00:00 app[web.1]: 'x-request-id': 'ddab073c-5f42-4a82-8f7a-4f006b647f23',
+2020-06-08T22:40:13.163920+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:40:13.163920+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:40:13.163920+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:40:13.163921+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:40:13.163921+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:40:13.163921+00:00 app[web.1]: 'x-request-start': '1591656013165',
+2020-06-08T22:40:13.163922+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:40:13.163922+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:40:13.163923+00:00 app[web.1]: }
+2020-06-08T22:40:13.164268+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:40:13.164372+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:40:13.164509+00:00 app[web.1]: {
+2020-06-08T22:40:13.164510+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:40:13.164510+00:00 app[web.1]: dt: '2020-06-09 07:40:12',
+2020-06-08T22:40:13.164510+00:00 app[web.1]: lat: 37.5498857,
+2020-06-08T22:40:13.164511+00:00 app[web.1]: lng: 127.1274164
+2020-06-08T22:40:13.164511+00:00 app[web.1]: }
+2020-06-08T22:40:13.174640+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=ddab073c-5f42-4a82-8f7a-4f006b647f23 fwd="223.38.30.113" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:40:13.210702+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:40:13.210788+00:00 app[web.1]: null
+2020-06-08T22:40:13.210863+00:00 app[web.1]: 5edebe4d1e4a0600172d3775
+2020-06-08T22:41:14.098359+00:00 app[web.1]: {
+2020-06-08T22:41:14.098372+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:41:14.098373+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:41:14.098374+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:41:14.098377+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:41:14.098377+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:41:14.098378+00:00 app[web.1]: 'x-request-id': '77cfe4be-e50e-4fe9-9969-0df426ce30fc',
+2020-06-08T22:41:14.098378+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:41:14.098379+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:41:14.098379+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:41:14.098379+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:41:14.098380+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:41:14.098380+00:00 app[web.1]: 'x-request-start': '1591656074091',
+2020-06-08T22:41:14.098380+00:00 app[web.1]: 'total-route-time': '3',
+2020-06-08T22:41:14.098381+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:41:14.098381+00:00 app[web.1]: }
+2020-06-08T22:41:14.098865+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:41:14.098958+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:41:14.099049+00:00 app[web.1]: {
+2020-06-08T22:41:14.099049+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:41:14.099050+00:00 app[web.1]: dt: '2020-06-09 07:41:12',
+2020-06-08T22:41:14.099050+00:00 app[web.1]: lat: 37.5496704,
+2020-06-08T22:41:14.099050+00:00 app[web.1]: lng: 127.1273767
+2020-06-08T22:41:14.099051+00:00 app[web.1]: }
+2020-06-08T22:41:14.099960+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=77cfe4be-e50e-4fe9-9969-0df426ce30fc fwd="223.38.30.113" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:41:14.214887+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:41:14.214969+00:00 app[web.1]: null
+2020-06-08T22:41:14.215032+00:00 app[web.1]: 5edebe8a1e4a0600172d3776
+2020-06-08T22:42:13.147596+00:00 app[web.1]: {
+2020-06-08T22:42:13.147625+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:42:13.147626+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:42:13.147627+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:42:13.147627+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:42:13.147627+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:42:13.147628+00:00 app[web.1]: 'x-request-id': '4efd3caf-141f-43dd-8ff4-e1f545362a9c',
+2020-06-08T22:42:13.147628+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:42:13.147629+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:42:13.147629+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:42:13.147630+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:42:13.147630+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:42:13.147630+00:00 app[web.1]: 'x-request-start': '1591656133144',
+2020-06-08T22:42:13.147631+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:42:13.147631+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:42:13.147631+00:00 app[web.1]: }
+2020-06-08T22:42:13.148206+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:42:13.148325+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:42:13.148405+00:00 app[web.1]: {
+2020-06-08T22:42:13.148406+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:42:13.148407+00:00 app[web.1]: dt: '2020-06-09 07:42:12',
+2020-06-08T22:42:13.148407+00:00 app[web.1]: lat: 37.5496672,
+2020-06-08T22:42:13.148408+00:00 app[web.1]: lng: 127.1273738
+2020-06-08T22:42:13.148408+00:00 app[web.1]: }
+2020-06-08T22:42:13.152942+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=4efd3caf-141f-43dd-8ff4-e1f545362a9c fwd="223.38.30.113" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:42:13.182099+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:42:13.182143+00:00 app[web.1]: null
+2020-06-08T22:42:13.182198+00:00 app[web.1]: 5edebec51e4a0600172d3777
+2020-06-08T22:43:14.200924+00:00 app[web.1]: {
+2020-06-08T22:43:14.200935+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:43:14.200935+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:43:14.200936+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:43:14.200937+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:43:14.200937+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:43:14.200938+00:00 app[web.1]: 'x-request-id': '818db32c-10f9-4afe-959f-66f0e4a69ffa',
+2020-06-08T22:43:14.200939+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:43:14.200939+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:43:14.200939+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:43:14.200940+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:43:14.200940+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:43:14.200940+00:00 app[web.1]: 'x-request-start': '1591656194198',
+2020-06-08T22:43:14.200941+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:43:14.200941+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:43:14.200941+00:00 app[web.1]: }
+2020-06-08T22:43:14.201143+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:43:14.201217+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:43:14.201327+00:00 app[web.1]: {
+2020-06-08T22:43:14.201328+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:43:14.201328+00:00 app[web.1]: dt: '2020-06-09 07:43:12',
+2020-06-08T22:43:14.201329+00:00 app[web.1]: lat: 37.5496367,
+2020-06-08T22:43:14.201329+00:00 app[web.1]: lng: 127.1273811
+2020-06-08T22:43:14.201330+00:00 app[web.1]: }
+2020-06-08T22:43:14.202325+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=818db32c-10f9-4afe-959f-66f0e4a69ffa fwd="223.38.30.113" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:43:14.352889+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:43:14.352896+00:00 app[web.1]: null
+2020-06-08T22:43:14.352950+00:00 app[web.1]: 5edebf021e4a0600172d3778
+2020-06-08T22:44:13.325654+00:00 app[web.1]: {
+2020-06-08T22:44:13.325666+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:44:13.325667+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:44:13.325669+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:44:13.325669+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:44:13.325698+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:44:13.325701+00:00 app[web.1]: 'x-request-id': '06283e89-336e-47c3-8977-e60c118cf311',
+2020-06-08T22:44:13.325701+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:44:13.325702+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:44:13.325702+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:44:13.325703+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:44:13.325703+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:44:13.325703+00:00 app[web.1]: 'x-request-start': '1591656253322',
+2020-06-08T22:44:13.325704+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:44:13.325704+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:44:13.325704+00:00 app[web.1]: }
+2020-06-08T22:44:13.325868+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:44:13.325956+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:44:13.326078+00:00 app[web.1]: {
+2020-06-08T22:44:13.326079+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:44:13.326079+00:00 app[web.1]: dt: '2020-06-09 07:44:12',
+2020-06-08T22:44:13.326080+00:00 app[web.1]: lat: 37.5496596,
+2020-06-08T22:44:13.326080+00:00 app[web.1]: lng: 127.1273754
+2020-06-08T22:44:13.326080+00:00 app[web.1]: }
+2020-06-08T22:44:13.327023+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=06283e89-336e-47c3-8977-e60c118cf311 fwd="223.38.30.113" dyno=web.1 connect=0ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T22:44:13.356845+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:44:13.356891+00:00 app[web.1]: null
+2020-06-08T22:44:13.356923+00:00 app[web.1]: 5edebf3d1e4a0600172d3779
+2020-06-08T22:45:14.013645+00:00 app[web.1]: {
+2020-06-08T22:45:14.013661+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:45:14.013661+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:45:14.013662+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:45:14.013663+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:45:14.013663+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:45:14.013664+00:00 app[web.1]: 'x-request-id': 'f4c0aa9e-32d7-40b2-8a3d-a8cb71b86678',
+2020-06-08T22:45:14.013664+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:45:14.013664+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:45:14.013665+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:45:14.013665+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:45:14.013665+00:00 app[web.1]: 'connect-time': '2',
+2020-06-08T22:45:14.013666+00:00 app[web.1]: 'x-request-start': '1591656314008',
+2020-06-08T22:45:14.013666+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:45:14.013666+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:45:14.013667+00:00 app[web.1]: }
+2020-06-08T22:45:14.019537+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:45:14.020516+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:45:14.021058+00:00 app[web.1]: {
+2020-06-08T22:45:14.021059+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:45:14.021060+00:00 app[web.1]: dt: '2020-06-09 07:45:12',
+2020-06-08T22:45:14.021060+00:00 app[web.1]: lat: 37.4621403,
+2020-06-08T22:45:14.021060+00:00 app[web.1]: lng: 127.1404554
+2020-06-08T22:45:14.021061+00:00 app[web.1]: }
+2020-06-08T22:45:14.028351+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=f4c0aa9e-32d7-40b2-8a3d-a8cb71b86678 fwd="223.38.30.113" dyno=web.1 connect=2ms service=17ms status=200 bytes=174 protocol=https
+2020-06-08T22:45:14.210821+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:45:14.211119+00:00 app[web.1]: null
+2020-06-08T22:45:14.211212+00:00 app[web.1]: 5edebf7a1e4a0600172d377a
+2020-06-08T22:46:13.223482+00:00 app[web.1]: {
+2020-06-08T22:46:13.223492+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:46:13.223492+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:46:13.223493+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:46:13.223494+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:46:13.223494+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:46:13.223495+00:00 app[web.1]: 'x-request-id': '178a149d-161e-40de-a707-8e519a533bba',
+2020-06-08T22:46:13.223495+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:46:13.223495+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:46:13.223496+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:46:13.223516+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:46:13.223516+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:46:13.223517+00:00 app[web.1]: 'x-request-start': '1591656373220',
+2020-06-08T22:46:13.223517+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:46:13.223517+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:46:13.223518+00:00 app[web.1]: }
+2020-06-08T22:46:13.224120+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:46:13.224281+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:46:13.224437+00:00 app[web.1]: {
+2020-06-08T22:46:13.224438+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:46:13.224438+00:00 app[web.1]: dt: '2020-06-09 07:46:12',
+2020-06-08T22:46:13.224439+00:00 app[web.1]: lat: 37.5501029,
+2020-06-08T22:46:13.224439+00:00 app[web.1]: lng: 127.1276477
+2020-06-08T22:46:13.224440+00:00 app[web.1]: }
+2020-06-08T22:46:13.229664+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=178a149d-161e-40de-a707-8e519a533bba fwd="223.38.30.113" dyno=web.1 connect=1ms service=7ms status=200 bytes=174 protocol=https
+2020-06-08T22:46:13.263637+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:46:13.263703+00:00 app[web.1]: null
+2020-06-08T22:46:13.263799+00:00 app[web.1]: 5edebfb51e4a0600172d377b
+2020-06-08T22:47:14.046064+00:00 app[web.1]: {
+2020-06-08T22:47:14.046095+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:47:14.046095+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:47:14.046097+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:47:14.046098+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:47:14.046098+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:47:14.046099+00:00 app[web.1]: 'x-request-id': 'ee823607-df72-491c-8f29-2e9b78391065',
+2020-06-08T22:47:14.046100+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:47:14.046100+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:47:14.046101+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:47:14.046101+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:47:14.046101+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:47:14.046102+00:00 app[web.1]: 'x-request-start': '1591656434043',
+2020-06-08T22:47:14.046102+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:47:14.046103+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:47:14.046103+00:00 app[web.1]: }
+2020-06-08T22:47:14.046606+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:47:14.046752+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:47:14.046894+00:00 app[web.1]: {
+2020-06-08T22:47:14.046895+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:47:14.046896+00:00 app[web.1]: dt: '2020-06-09 07:47:12',
+2020-06-08T22:47:14.046896+00:00 app[web.1]: lat: 37.5501028,
+2020-06-08T22:47:14.046897+00:00 app[web.1]: lng: 127.1276469
+2020-06-08T22:47:14.046897+00:00 app[web.1]: }
+2020-06-08T22:47:14.049375+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=ee823607-df72-491c-8f29-2e9b78391065 fwd="223.38.30.113" dyno=web.1 connect=0ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T22:47:14.212135+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:47:14.212231+00:00 app[web.1]: null
+2020-06-08T22:47:14.212305+00:00 app[web.1]: 5edebff21e4a0600172d377c
+2020-06-08T22:48:13.229616+00:00 app[web.1]: {
+2020-06-08T22:48:13.229634+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:48:13.229635+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:48:13.229636+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:48:13.229637+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:48:13.229637+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:48:13.229638+00:00 app[web.1]: 'x-request-id': '9879ca14-9c44-4d8a-8ddc-6e0e45522a34',
+2020-06-08T22:48:13.229638+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.113',
+2020-06-08T22:48:13.229639+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:48:13.229639+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:48:13.229640+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:48:13.229640+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:48:13.229640+00:00 app[web.1]: 'x-request-start': '1591656493221',
+2020-06-08T22:48:13.229641+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:48:13.229641+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:48:13.229642+00:00 app[web.1]: }
+2020-06-08T22:48:13.229950+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:48:13.230139+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:48:13.230502+00:00 app[web.1]: {
+2020-06-08T22:48:13.230503+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:48:13.230503+00:00 app[web.1]: dt: '2020-06-09 07:48:12',
+2020-06-08T22:48:13.230503+00:00 app[web.1]: lat: 37.5342674,
+2020-06-08T22:48:13.230504+00:00 app[web.1]: lng: 127.1222005
+2020-06-08T22:48:13.230504+00:00 app[web.1]: }
+2020-06-08T22:48:13.232637+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=9879ca14-9c44-4d8a-8ddc-6e0e45522a34 fwd="223.38.30.113" dyno=web.1 connect=0ms service=9ms status=200 bytes=174 protocol=https
+2020-06-08T22:48:13.313011+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:48:13.313123+00:00 app[web.1]: null
+2020-06-08T22:48:13.313254+00:00 app[web.1]: 5edec02d1e4a0600172d377d
+2020-06-08T22:50:14.092154+00:00 app[web.1]: {
+2020-06-08T22:50:14.092165+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:50:14.092165+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:50:14.092167+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:50:14.092168+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:50:14.092168+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:50:14.092170+00:00 app[web.1]: 'x-request-id': '607ec83e-1b66-4758-b4c3-cebc986ead2c',
+2020-06-08T22:50:14.092170+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:50:14.092171+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:50:14.092171+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:50:14.092171+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:50:14.092172+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:50:14.092172+00:00 app[web.1]: 'x-request-start': '1591656614092',
+2020-06-08T22:50:14.092173+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:50:14.092173+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:50:14.092174+00:00 app[web.1]: }
+2020-06-08T22:50:14.092781+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:50:14.093125+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:50:14.093486+00:00 app[web.1]: {
+2020-06-08T22:50:14.093487+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:50:14.093487+00:00 app[web.1]: dt: '2020-06-09 07:50:12',
+2020-06-08T22:50:14.093488+00:00 app[web.1]: lat: 37.5245445,
+2020-06-08T22:50:14.093488+00:00 app[web.1]: lng: 127.1169797
+2020-06-08T22:50:14.093489+00:00 app[web.1]: }
+2020-06-08T22:50:14.097413+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=607ec83e-1b66-4758-b4c3-cebc986ead2c fwd="223.38.30.222" dyno=web.1 connect=0ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T22:50:14.319120+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:50:14.319210+00:00 app[web.1]: null
+2020-06-08T22:50:14.319296+00:00 app[web.1]: 5edec0a61e4a0600172d377e
+2020-06-08T22:51:13.203647+00:00 app[web.1]: {
+2020-06-08T22:51:13.203665+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:51:13.203665+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:51:13.203666+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:51:13.203667+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:51:13.203668+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:51:13.203668+00:00 app[web.1]: 'x-request-id': 'aecf32c0-22a6-4266-bdd7-8d5234d6c128',
+2020-06-08T22:51:13.203669+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:51:13.203669+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:51:13.203669+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:51:13.203670+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:51:13.203670+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:51:13.203670+00:00 app[web.1]: 'x-request-start': '1591656673202',
+2020-06-08T22:51:13.203671+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:51:13.203671+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:51:13.203672+00:00 app[web.1]: }
+2020-06-08T22:51:13.204391+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:51:13.204754+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:51:13.205090+00:00 app[web.1]: {
+2020-06-08T22:51:13.205108+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:51:13.205108+00:00 app[web.1]: dt: '2020-06-09 07:51:12',
+2020-06-08T22:51:13.205109+00:00 app[web.1]: lat: 37.5172396,
+2020-06-08T22:51:13.205110+00:00 app[web.1]: lng: 127.1119346
+2020-06-08T22:51:13.205110+00:00 app[web.1]: }
+2020-06-08T22:51:13.209098+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=aecf32c0-22a6-4266-bdd7-8d5234d6c128 fwd="223.38.30.222" dyno=web.1 connect=1ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T22:51:13.254216+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:51:13.254346+00:00 app[web.1]: null
+2020-06-08T22:51:13.254428+00:00 app[web.1]: 5edec0e11e4a0600172d377f
+2020-06-08T22:52:14.113421+00:00 app[web.1]: {
+2020-06-08T22:52:14.113462+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:52:14.113462+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:52:14.113463+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:52:14.113465+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:52:14.113466+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:52:14.113466+00:00 app[web.1]: 'x-request-id': '4d1f98f5-c0d0-435d-82a1-d71815023113',
+2020-06-08T22:52:14.113467+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:52:14.113467+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:52:14.113468+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:52:14.113468+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:52:14.113469+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:52:14.113469+00:00 app[web.1]: 'x-request-start': '1591656734110',
+2020-06-08T22:52:14.113469+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:52:14.113470+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:52:14.113470+00:00 app[web.1]: }
+2020-06-08T22:52:14.113717+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:52:14.113864+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:52:14.114002+00:00 app[web.1]: {
+2020-06-08T22:52:14.114003+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:52:14.114003+00:00 app[web.1]: dt: '2020-06-09 07:52:12',
+2020-06-08T22:52:14.114004+00:00 app[web.1]: lat: 37.5172396,
+2020-06-08T22:52:14.114004+00:00 app[web.1]: lng: 127.1119346
+2020-06-08T22:52:14.114004+00:00 app[web.1]: }
+2020-06-08T22:52:14.115437+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=4d1f98f5-c0d0-435d-82a1-d71815023113 fwd="223.38.30.222" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:52:14.303678+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:52:14.303763+00:00 app[web.1]: null
+2020-06-08T22:52:14.303845+00:00 app[web.1]: 5edec11e1e4a0600172d3780
+2020-06-08T22:53:13.170084+00:00 app[web.1]: {
+2020-06-08T22:53:13.170093+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:53:13.170093+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:53:13.170094+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:53:13.170101+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:53:13.170102+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:53:13.170102+00:00 app[web.1]: 'x-request-id': 'a7e5ff49-5f99-4141-9f60-dd6c54fbae10',
+2020-06-08T22:53:13.170103+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:53:13.170103+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:53:13.170103+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:53:13.170104+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:53:13.170104+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:53:13.170105+00:00 app[web.1]: 'x-request-start': '1591656793168',
+2020-06-08T22:53:13.170105+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:53:13.170106+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:53:13.170106+00:00 app[web.1]: }
+2020-06-08T22:53:13.170240+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:53:13.170365+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:53:13.170502+00:00 app[web.1]: {
+2020-06-08T22:53:13.170505+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:53:13.170505+00:00 app[web.1]: dt: '2020-06-09 07:53:12',
+2020-06-08T22:53:13.170505+00:00 app[web.1]: lat: 37.5121486,
+2020-06-08T22:53:13.170506+00:00 app[web.1]: lng: 127.1079156
+2020-06-08T22:53:13.170506+00:00 app[web.1]: }
+2020-06-08T22:53:13.171952+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=a7e5ff49-5f99-4141-9f60-dd6c54fbae10 fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:53:13.213598+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:53:13.213721+00:00 app[web.1]: null
+2020-06-08T22:53:13.213803+00:00 app[web.1]: 5edec1591e4a0600172d3781
+2020-06-08T22:55:14.197505+00:00 app[web.1]: {
+2020-06-08T22:55:14.197515+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:55:14.197516+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:55:14.197517+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:55:14.197520+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:55:14.197520+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:55:14.197521+00:00 app[web.1]: 'x-request-id': '2307bb59-9268-4bb8-aaa0-4df00940973d',
+2020-06-08T22:55:14.197522+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:55:14.197522+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:55:14.197522+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:55:14.197523+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:55:14.197523+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:55:14.197524+00:00 app[web.1]: 'x-request-start': '1591656914195',
+2020-06-08T22:55:14.197524+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:55:14.197524+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:55:14.197525+00:00 app[web.1]: }
+2020-06-08T22:55:14.197640+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:55:14.197824+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:55:14.197966+00:00 app[web.1]: {
+2020-06-08T22:55:14.197967+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:55:14.197967+00:00 app[web.1]: dt: '2020-06-09 07:55:12',
+2020-06-08T22:55:14.197968+00:00 app[web.1]: lat: 37.5137958,
+2020-06-08T22:55:14.197968+00:00 app[web.1]: lng: 127.1022439
+2020-06-08T22:55:14.197968+00:00 app[web.1]: }
+2020-06-08T22:55:14.199396+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=2307bb59-9268-4bb8-aaa0-4df00940973d fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:55:14.320707+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:55:14.323380+00:00 app[web.1]: null
+2020-06-08T22:55:14.323472+00:00 app[web.1]: 5edec1d21e4a0600172d3782
+2020-06-08T22:56:13.682590+00:00 app[web.1]: {
+2020-06-08T22:56:13.682599+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:56:13.682599+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:56:13.682600+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:56:13.682602+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:56:13.682603+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:56:13.682603+00:00 app[web.1]: 'x-request-id': '978e4e51-8c55-4608-8513-00ded7fc31a5',
+2020-06-08T22:56:13.682604+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:56:13.682604+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:56:13.682604+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:56:13.682605+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:56:13.682605+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:56:13.682605+00:00 app[web.1]: 'x-request-start': '1591656973680',
+2020-06-08T22:56:13.682606+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:56:13.682606+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:56:13.682607+00:00 app[web.1]: }
+2020-06-08T22:56:13.682741+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:56:13.682870+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:56:13.682994+00:00 app[web.1]: {
+2020-06-08T22:56:13.682995+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:56:13.682995+00:00 app[web.1]: dt: '2020-06-09 07:56:12',
+2020-06-08T22:56:13.682996+00:00 app[web.1]: lat: 37.5137958,
+2020-06-08T22:56:13.682996+00:00 app[web.1]: lng: 127.1022439
+2020-06-08T22:56:13.682996+00:00 app[web.1]: }
+2020-06-08T22:56:13.684019+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=978e4e51-8c55-4608-8513-00ded7fc31a5 fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:56:13.729141+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:56:13.729417+00:00 app[web.1]: null
+2020-06-08T22:56:13.729513+00:00 app[web.1]: 5edec20d1e4a0600172d3783
+2020-06-08T22:57:14.146847+00:00 app[web.1]: {
+2020-06-08T22:57:14.146858+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:57:14.146858+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:57:14.146860+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:57:14.146860+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:57:14.146861+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:57:14.146862+00:00 app[web.1]: 'x-request-id': 'b827d6e3-4b46-4b9d-a507-408a50959869',
+2020-06-08T22:57:14.146863+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:57:14.146863+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:57:14.146863+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:57:14.146864+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:57:14.146864+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:57:14.146865+00:00 app[web.1]: 'x-request-start': '1591657034142',
+2020-06-08T22:57:14.146865+00:00 app[web.1]: 'total-route-time': '2',
+2020-06-08T22:57:14.146865+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:57:14.146866+00:00 app[web.1]: }
+2020-06-08T22:57:14.146958+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:57:14.147088+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:57:14.150048+00:00 app[web.1]: {
+2020-06-08T22:57:14.150049+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:57:14.150049+00:00 app[web.1]: dt: '2020-06-09 07:57:12',
+2020-06-08T22:57:14.150049+00:00 app[web.1]: lat: 37.5137958,
+2020-06-08T22:57:14.150050+00:00 app[web.1]: lng: 127.1022439
+2020-06-08T22:57:14.150050+00:00 app[web.1]: }
+2020-06-08T22:57:14.156426+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=b827d6e3-4b46-4b9d-a507-408a50959869 fwd="223.38.30.222" dyno=web.1 connect=0ms service=10ms status=200 bytes=174 protocol=https
+2020-06-08T22:57:14.427343+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:57:14.427552+00:00 app[web.1]: null
+2020-06-08T22:57:14.427658+00:00 app[web.1]: 5edec24a1e4a0600172d3784
+2020-06-08T22:58:13.258235+00:00 app[web.1]: {
+2020-06-08T22:58:13.258246+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:58:13.258246+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:58:13.258247+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:58:13.258250+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:58:13.258251+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:58:13.258251+00:00 app[web.1]: 'x-request-id': '77df0f70-e048-429e-94cf-99ac33f507e9',
+2020-06-08T22:58:13.258252+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:58:13.258252+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:58:13.258253+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:58:13.258253+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:58:13.258253+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T22:58:13.258254+00:00 app[web.1]: 'x-request-start': '1591657093256',
+2020-06-08T22:58:13.258254+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:58:13.258258+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:58:13.258259+00:00 app[web.1]: }
+2020-06-08T22:58:13.258367+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:58:13.258468+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:58:13.258563+00:00 app[web.1]: {
+2020-06-08T22:58:13.258564+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:58:13.258564+00:00 app[web.1]: dt: '2020-06-09 07:58:12',
+2020-06-08T22:58:13.258564+00:00 app[web.1]: lat: 37.5207955,
+2020-06-08T22:58:13.258565+00:00 app[web.1]: lng: 127.1038393
+2020-06-08T22:58:13.258565+00:00 app[web.1]: }
+2020-06-08T22:58:13.260129+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=77df0f70-e048-429e-94cf-99ac33f507e9 fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T22:58:13.317117+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:58:13.317160+00:00 app[web.1]: null
+2020-06-08T22:58:13.317216+00:00 app[web.1]: 5edec2851e4a0600172d3785
+2020-06-08T22:59:14.101694+00:00 app[web.1]: {
+2020-06-08T22:59:14.101745+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T22:59:14.101746+00:00 app[web.1]: connection: 'close',
+2020-06-08T22:59:14.101747+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T22:59:14.101749+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T22:59:14.101750+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T22:59:14.101750+00:00 app[web.1]: 'x-request-id': '4389fd48-6575-41ed-829b-65bcddd00d60',
+2020-06-08T22:59:14.101751+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T22:59:14.101751+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T22:59:14.101752+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T22:59:14.101752+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T22:59:14.101753+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T22:59:14.101753+00:00 app[web.1]: 'x-request-start': '1591657154097',
+2020-06-08T22:59:14.101753+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T22:59:14.101754+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T22:59:14.101754+00:00 app[web.1]: }
+2020-06-08T22:59:14.102104+00:00 app[web.1]: 87 bytes of data
+2020-06-08T22:59:14.102617+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T22:59:14.103104+00:00 app[web.1]: {
+2020-06-08T22:59:14.103106+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T22:59:14.103106+00:00 app[web.1]: dt: '2020-06-09 07:59:12',
+2020-06-08T22:59:14.103106+00:00 app[web.1]: lat: 37.5247013,
+2020-06-08T22:59:14.103107+00:00 app[web.1]: lng: 127.1015635
+2020-06-08T22:59:14.103107+00:00 app[web.1]: }
+2020-06-08T22:59:14.104891+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=4389fd48-6575-41ed-829b-65bcddd00d60 fwd="223.38.30.222" dyno=web.1 connect=1ms service=5ms status=200 bytes=174 protocol=https
+2020-06-08T22:59:14.231660+00:00 app[web.1]: aaaaa insert
+2020-06-08T22:59:14.231693+00:00 app[web.1]: null
+2020-06-08T22:59:14.231744+00:00 app[web.1]: 5edec2c21e4a0600172d3786
+2020-06-08T23:00:13.244435+00:00 app[web.1]: {
+2020-06-08T23:00:13.244445+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:00:13.244446+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:00:13.244447+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:00:13.244449+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:00:13.244450+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:00:13.244451+00:00 app[web.1]: 'x-request-id': '040a4df3-607a-4590-af46-be8c8b2dbe3b',
+2020-06-08T23:00:13.244451+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:00:13.244451+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:00:13.244452+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:00:13.244452+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:00:13.244453+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:00:13.244453+00:00 app[web.1]: 'x-request-start': '1591657213242',
+2020-06-08T23:00:13.244453+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:00:13.244454+00:00 app[web.1]: 'content-length': '86'
+2020-06-08T23:00:13.244454+00:00 app[web.1]: }
+2020-06-08T23:00:13.244741+00:00 app[web.1]: 86 bytes of data
+2020-06-08T23:00:13.244822+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:00:13.244914+00:00 app[web.1]: {
+2020-06-08T23:00:13.244915+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:00:13.244916+00:00 app[web.1]: dt: '2020-06-09 08:00:12',
+2020-06-08T23:00:13.244916+00:00 app[web.1]: lat: 37.534967,
+2020-06-08T23:00:13.244916+00:00 app[web.1]: lng: 127.0947501
+2020-06-08T23:00:13.244917+00:00 app[web.1]: }
+2020-06-08T23:00:13.246442+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=040a4df3-607a-4590-af46-be8c8b2dbe3b fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T23:00:13.286904+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:00:13.286970+00:00 app[web.1]: null
+2020-06-08T23:00:13.287032+00:00 app[web.1]: 5edec2fd1e4a0600172d3787
+2020-06-08T23:01:14.566442+00:00 app[web.1]: {
+2020-06-08T23:01:14.566454+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:01:14.566454+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:01:14.566456+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:01:14.566457+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:01:14.566457+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:01:14.566458+00:00 app[web.1]: 'x-request-id': 'fc5b21ba-ec30-43c3-a2b7-9e45636b646e',
+2020-06-08T23:01:14.566459+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:01:14.566459+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:01:14.566459+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:01:14.566460+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:01:14.566461+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:01:14.566461+00:00 app[web.1]: 'x-request-start': '1591657274565',
+2020-06-08T23:01:14.566461+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:01:14.566462+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:01:14.566462+00:00 app[web.1]: }
+2020-06-08T23:01:14.567699+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:01:14.568052+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:01:14.568285+00:00 app[web.1]: {
+2020-06-08T23:01:14.568286+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:01:14.568286+00:00 app[web.1]: dt: '2020-06-09 08:01:12',
+2020-06-08T23:01:14.568287+00:00 app[web.1]: lat: 37.5364113,
+2020-06-08T23:01:14.568287+00:00 app[web.1]: lng: 127.0931838
+2020-06-08T23:01:14.568287+00:00 app[web.1]: }
+2020-06-08T23:01:14.575655+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=fc5b21ba-ec30-43c3-a2b7-9e45636b646e fwd="223.38.30.222" dyno=web.1 connect=1ms service=8ms status=200 bytes=174 protocol=https
+2020-06-08T23:01:14.714304+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:01:14.714349+00:00 app[web.1]: null
+2020-06-08T23:01:14.714412+00:00 app[web.1]: 5edec33a1e4a0600172d3788
+2020-06-08T23:02:13.362453+00:00 app[web.1]: {
+2020-06-08T23:02:13.362462+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:02:13.362462+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:02:13.362464+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:02:13.362465+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:02:13.362465+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:02:13.362466+00:00 app[web.1]: 'x-request-id': '08356c52-76b0-4afa-b925-46778b5b7f59',
+2020-06-08T23:02:13.362466+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:02:13.362467+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:02:13.362467+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:02:13.362468+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:02:13.362468+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:02:13.362468+00:00 app[web.1]: 'x-request-start': '1591657333357',
+2020-06-08T23:02:13.362469+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:02:13.362469+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:02:13.362470+00:00 app[web.1]: }
+2020-06-08T23:02:13.362735+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:02:13.362928+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:02:13.363109+00:00 app[web.1]: {
+2020-06-08T23:02:13.363110+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:02:13.363110+00:00 app[web.1]: dt: '2020-06-09 08:02:12',
+2020-06-08T23:02:13.363111+00:00 app[web.1]: lat: 37.5371412,
+2020-06-08T23:02:13.363111+00:00 app[web.1]: lng: 127.0861149
+2020-06-08T23:02:13.363111+00:00 app[web.1]: }
+2020-06-08T23:02:13.366525+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=08356c52-76b0-4afa-b925-46778b5b7f59 fwd="223.38.30.222" dyno=web.1 connect=1ms service=6ms status=200 bytes=174 protocol=https
+2020-06-08T23:02:13.441036+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:02:13.441127+00:00 app[web.1]: null
+2020-06-08T23:02:13.441204+00:00 app[web.1]: 5edec3751e4a0600172d3789
+2020-06-08T23:04:14.229800+00:00 app[web.1]: {
+2020-06-08T23:04:14.229810+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:04:14.229810+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:04:14.229811+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:04:14.229812+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:04:14.229813+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:04:14.229814+00:00 app[web.1]: 'x-request-id': 'eda12d35-6626-43d0-87da-51254c2da823',
+2020-06-08T23:04:14.229814+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:04:14.229815+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:04:14.229815+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:04:14.229815+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:04:14.229816+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:04:14.229816+00:00 app[web.1]: 'x-request-start': '1591657454227',
+2020-06-08T23:04:14.229817+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:04:14.229817+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:04:14.229818+00:00 app[web.1]: }
+2020-06-08T23:04:14.230180+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:04:14.230320+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:04:14.230498+00:00 app[web.1]: {
+2020-06-08T23:04:14.230499+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:04:14.230499+00:00 app[web.1]: dt: '2020-06-09 08:04:12',
+2020-06-08T23:04:14.230500+00:00 app[web.1]: lat: 37.5390326,
+2020-06-08T23:04:14.230500+00:00 app[web.1]: lng: 127.0742616
+2020-06-08T23:04:14.230501+00:00 app[web.1]: }
+2020-06-08T23:04:14.232130+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=eda12d35-6626-43d0-87da-51254c2da823 fwd="223.38.30.222" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:04:14.390729+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:04:14.390807+00:00 app[web.1]: null
+2020-06-08T23:04:14.390886+00:00 app[web.1]: 5edec3ee1e4a0600172d378a
+2020-06-08T23:05:13.245094+00:00 app[web.1]: {
+2020-06-08T23:05:13.245104+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:05:13.245104+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:05:13.245105+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:05:13.245106+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:05:13.245106+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:05:13.245107+00:00 app[web.1]: 'x-request-id': '2849c8d6-b0bb-4112-94e7-558130141b70',
+2020-06-08T23:05:13.245108+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:05:13.245108+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:05:13.245108+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:05:13.245109+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:05:13.245109+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:05:13.245109+00:00 app[web.1]: 'x-request-start': '1591657513242',
+2020-06-08T23:05:13.245110+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:05:13.245110+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:05:13.245110+00:00 app[web.1]: }
+2020-06-08T23:05:13.245507+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:05:13.245706+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:05:13.246037+00:00 app[web.1]: {
+2020-06-08T23:05:13.246038+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:05:13.246039+00:00 app[web.1]: dt: '2020-06-09 08:05:12',
+2020-06-08T23:05:13.246039+00:00 app[web.1]: lat: 37.5405595,
+2020-06-08T23:05:13.246039+00:00 app[web.1]: lng: 127.0690451
+2020-06-08T23:05:13.246040+00:00 app[web.1]: }
+2020-06-08T23:05:13.249711+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=2849c8d6-b0bb-4112-94e7-558130141b70 fwd="223.38.30.222" dyno=web.1 connect=1ms service=5ms status=200 bytes=174 protocol=https
+2020-06-08T23:05:13.310572+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:05:13.310716+00:00 app[web.1]: null
+2020-06-08T23:05:13.310840+00:00 app[web.1]: 5edec4291e4a0600172d378b
+2020-06-08T23:07:14.131754+00:00 app[web.1]: {
+2020-06-08T23:07:14.131772+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:07:14.131772+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:07:14.131774+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:07:14.131775+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:07:14.131776+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:07:14.131777+00:00 app[web.1]: 'x-request-id': 'b9d65d60-d61a-401b-8115-df9f820275a3',
+2020-06-08T23:07:14.131777+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:07:14.131778+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:07:14.131778+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:07:14.131779+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:07:14.131779+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:07:14.131779+00:00 app[web.1]: 'x-request-start': '1591657634130',
+2020-06-08T23:07:14.131780+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:07:14.131780+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:07:14.131781+00:00 app[web.1]: }
+2020-06-08T23:07:14.131967+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:07:14.132095+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:07:14.132373+00:00 app[web.1]: {
+2020-06-08T23:07:14.132375+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:07:14.132375+00:00 app[web.1]: dt: '2020-06-09 08:07:12',
+2020-06-08T23:07:14.132375+00:00 app[web.1]: lat: 37.5455864,
+2020-06-08T23:07:14.132376+00:00 app[web.1]: lng: 127.0546246
+2020-06-08T23:07:14.132376+00:00 app[web.1]: }
+2020-06-08T23:07:14.134699+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=b9d65d60-d61a-401b-8115-df9f820275a3 fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T23:07:14.336730+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:07:14.336773+00:00 app[web.1]: null
+2020-06-08T23:07:14.336829+00:00 app[web.1]: 5edec4a21e4a0600172d378c
+2020-06-08T23:08:13.234126+00:00 app[web.1]: {
+2020-06-08T23:08:13.234173+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:08:13.234173+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:08:13.234174+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:08:13.234175+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:08:13.234176+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:08:13.234177+00:00 app[web.1]: 'x-request-id': 'deedb0fb-3619-4df9-a2b8-d5e0b96daa46',
+2020-06-08T23:08:13.234177+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:08:13.234178+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:08:13.234178+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:08:13.234178+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:08:13.234179+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:08:13.234179+00:00 app[web.1]: 'x-request-start': '1591657693232',
+2020-06-08T23:08:13.234179+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:08:13.234180+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:08:13.234181+00:00 app[web.1]: }
+2020-06-08T23:08:13.234253+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:08:13.234349+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:08:13.234466+00:00 app[web.1]: {
+2020-06-08T23:08:13.234467+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:08:13.234467+00:00 app[web.1]: dt: '2020-06-09 08:08:12',
+2020-06-08T23:08:13.234467+00:00 app[web.1]: lat: 37.5459449,
+2020-06-08T23:08:13.234468+00:00 app[web.1]: lng: 127.0512707
+2020-06-08T23:08:13.234468+00:00 app[web.1]: }
+2020-06-08T23:08:13.236580+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=deedb0fb-3619-4df9-a2b8-d5e0b96daa46 fwd="223.38.30.222" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T23:08:13.283758+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:08:13.283799+00:00 app[web.1]: null
+2020-06-08T23:08:13.283841+00:00 app[web.1]: 5edec4dd1e4a0600172d378d
+2020-06-08T23:09:14.266135+00:00 app[web.1]: {
+2020-06-08T23:09:14.266146+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:09:14.266147+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:09:14.266148+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:09:14.266150+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:09:14.266150+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:09:14.266151+00:00 app[web.1]: 'x-request-id': '9197a02c-fff3-4d53-88ed-586b0b675d3c',
+2020-06-08T23:09:14.266152+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:09:14.266152+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:09:14.266152+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:09:14.266153+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:09:14.266153+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:09:14.266153+00:00 app[web.1]: 'x-request-start': '1591657754261',
+2020-06-08T23:09:14.266154+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:09:14.266154+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:09:14.266155+00:00 app[web.1]: }
+2020-06-08T23:09:14.266341+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=9197a02c-fff3-4d53-88ed-586b0b675d3c fwd="223.38.30.222" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:09:14.266525+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:09:14.266619+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:09:14.266724+00:00 app[web.1]: {
+2020-06-08T23:09:14.266725+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:09:14.266725+00:00 app[web.1]: dt: '2020-06-09 08:09:12',
+2020-06-08T23:09:14.266725+00:00 app[web.1]: lat: 37.5472326,
+2020-06-08T23:09:14.266726+00:00 app[web.1]: lng: 127.0473927
+2020-06-08T23:09:14.266726+00:00 app[web.1]: }
+2020-06-08T23:09:14.394519+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:09:14.394571+00:00 app[web.1]: null
+2020-06-08T23:09:14.394644+00:00 app[web.1]: 5edec51a1e4a0600172d378e
+2020-06-08T23:10:13.270404+00:00 app[web.1]: {
+2020-06-08T23:10:13.270414+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:10:13.270415+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:10:13.270416+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:10:13.270417+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:10:13.270417+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:10:13.270418+00:00 app[web.1]: 'x-request-id': '8ea05676-6ea5-45a7-b6bf-5b6b64e29477',
+2020-06-08T23:10:13.270419+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:10:13.270419+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:10:13.270419+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:10:13.270420+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:10:13.270420+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:10:13.270420+00:00 app[web.1]: 'x-request-start': '1591657813265',
+2020-06-08T23:10:13.270421+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:10:13.270421+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:10:13.270422+00:00 app[web.1]: }
+2020-06-08T23:10:13.272326+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=8ea05676-6ea5-45a7-b6bf-5b6b64e29477 fwd="223.38.30.222" dyno=web.1 connect=1ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T23:10:13.272346+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:10:13.272485+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:10:13.272643+00:00 app[web.1]: {
+2020-06-08T23:10:13.272644+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:10:13.272645+00:00 app[web.1]: dt: '2020-06-09 08:10:12',
+2020-06-08T23:10:13.272645+00:00 app[web.1]: lat: 37.5470082,
+2020-06-08T23:10:13.272645+00:00 app[web.1]: lng: 127.0479962
+2020-06-08T23:10:13.272646+00:00 app[web.1]: }
+2020-06-08T23:10:13.402038+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:10:13.402099+00:00 app[web.1]: null
+2020-06-08T23:10:13.402166+00:00 app[web.1]: 5edec5551e4a0600172d378f
+2020-06-08T23:11:14.315453+00:00 app[web.1]: {
+2020-06-08T23:11:14.315464+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:11:14.315464+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:11:14.315465+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:11:14.315466+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:11:14.315466+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:11:14.315467+00:00 app[web.1]: 'x-request-id': '3d4257f6-8349-453e-a8e5-edab36b38a7c',
+2020-06-08T23:11:14.315467+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:11:14.315467+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:11:14.315468+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:11:14.315468+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:11:14.315469+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:11:14.315469+00:00 app[web.1]: 'x-request-start': '1591657874312',
+2020-06-08T23:11:14.315469+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:11:14.315470+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:11:14.315470+00:00 app[web.1]: }
+2020-06-08T23:11:14.316399+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:11:14.316758+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:11:14.317057+00:00 app[web.1]: {
+2020-06-08T23:11:14.317058+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:11:14.317058+00:00 app[web.1]: dt: '2020-06-09 08:11:12',
+2020-06-08T23:11:14.317059+00:00 app[web.1]: lat: 37.5467071,
+2020-06-08T23:11:14.317059+00:00 app[web.1]: lng: 127.0487209
+2020-06-08T23:11:14.317060+00:00 app[web.1]: }
+2020-06-08T23:11:14.322177+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=3d4257f6-8349-453e-a8e5-edab36b38a7c fwd="223.38.30.222" dyno=web.1 connect=1ms service=4ms status=200 bytes=174 protocol=https
+2020-06-08T23:11:14.518329+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:11:14.521918+00:00 app[web.1]: null
+2020-06-08T23:11:14.522108+00:00 app[web.1]: 5edec5921e4a0600172d3790
+2020-06-08T23:12:13.244643+00:00 app[web.1]: {
+2020-06-08T23:12:13.244654+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:12:13.244654+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:12:13.244656+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:12:13.244657+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:12:13.244657+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:12:13.244658+00:00 app[web.1]: 'x-request-id': 'f3e459e9-0dae-4897-95a0-0622ca66e663',
+2020-06-08T23:12:13.244659+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:12:13.244659+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:12:13.244659+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:12:13.244660+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:12:13.244660+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:12:13.244661+00:00 app[web.1]: 'x-request-start': '1591657933241',
+2020-06-08T23:12:13.244661+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:12:13.244662+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:12:13.244662+00:00 app[web.1]: }
+2020-06-08T23:12:13.244874+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:12:13.245011+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:12:13.245185+00:00 app[web.1]: {
+2020-06-08T23:12:13.245186+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:12:13.245186+00:00 app[web.1]: dt: '2020-06-09 08:12:12',
+2020-06-08T23:12:13.245186+00:00 app[web.1]: lat: 37.5465783,
+2020-06-08T23:12:13.245187+00:00 app[web.1]: lng: 127.0486683
+2020-06-08T23:12:13.245187+00:00 app[web.1]: }
+2020-06-08T23:12:13.246715+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=f3e459e9-0dae-4897-95a0-0622ca66e663 fwd="223.38.30.222" dyno=web.1 connect=0ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:12:13.370057+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:12:13.370116+00:00 app[web.1]: null
+2020-06-08T23:12:13.370215+00:00 app[web.1]: 5edec5cd1e4a0600172d3791
+2020-06-08T23:13:14.162823+00:00 app[web.1]: {
+2020-06-08T23:13:14.162853+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:13:14.162854+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:13:14.162855+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:13:14.162855+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:13:14.162856+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:13:14.162856+00:00 app[web.1]: 'x-request-id': '2e8eff06-6d8e-46e9-a6cd-bf9d2aac53fe',
+2020-06-08T23:13:14.162857+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.222',
+2020-06-08T23:13:14.162857+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:13:14.162858+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:13:14.162858+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:13:14.162859+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:13:14.162859+00:00 app[web.1]: 'x-request-start': '1591657994162',
+2020-06-08T23:13:14.162860+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:13:14.162860+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:13:14.162861+00:00 app[web.1]: }
+2020-06-08T23:13:14.162935+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:13:14.163017+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:13:14.163115+00:00 app[web.1]: {
+2020-06-08T23:13:14.163115+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:13:14.163116+00:00 app[web.1]: dt: '2020-06-09 08:13:12',
+2020-06-08T23:13:14.163116+00:00 app[web.1]: lat: 37.5459706,
+2020-06-08T23:13:14.163116+00:00 app[web.1]: lng: 127.0490557
+2020-06-08T23:13:14.163117+00:00 app[web.1]: }
+2020-06-08T23:13:14.165302+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=2e8eff06-6d8e-46e9-a6cd-bf9d2aac53fe fwd="223.38.30.222" dyno=web.1 connect=0ms service=1ms status=200 bytes=174 protocol=https
+2020-06-08T23:13:14.258817+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:13:14.258867+00:00 app[web.1]: null
+2020-06-08T23:13:14.258986+00:00 app[web.1]: 5edec60a1e4a0600172d3792
+2020-06-08T23:15:14.321753+00:00 app[web.1]: {
+2020-06-08T23:15:14.321765+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:15:14.321766+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:15:14.321767+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:15:14.321768+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:15:14.321769+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:15:14.321771+00:00 app[web.1]: 'x-request-id': '27225146-6a35-4cd2-be0c-2161af24d223',
+2020-06-08T23:15:14.321771+00:00 app[web.1]: 'x-forwarded-for': '223.38.29.50',
+2020-06-08T23:15:14.321771+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:15:14.321772+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:15:14.321772+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:15:14.321772+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:15:14.321772+00:00 app[web.1]: 'x-request-start': '1591658114318',
+2020-06-08T23:15:14.321773+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:15:14.321773+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:15:14.321774+00:00 app[web.1]: }
+2020-06-08T23:15:14.322077+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:15:14.322150+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:15:14.322252+00:00 app[web.1]: {
+2020-06-08T23:15:14.322253+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:15:14.322253+00:00 app[web.1]: dt: '2020-06-09 08:15:12',
+2020-06-08T23:15:14.322253+00:00 app[web.1]: lat: 37.5456849,
+2020-06-08T23:15:14.322254+00:00 app[web.1]: lng: 127.0491353
+2020-06-08T23:15:14.322254+00:00 app[web.1]: }
+2020-06-08T23:15:14.323437+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=27225146-6a35-4cd2-be0c-2161af24d223 fwd="223.38.29.50" dyno=web.1 connect=0ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T23:15:14.474873+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:15:14.474920+00:00 app[web.1]: null
+2020-06-08T23:15:14.474999+00:00 app[web.1]: 5edec6821e4a0600172d3793
+2020-06-08T23:17:14.372483+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=02a01bca-7267-4f25-8800-6ab38c40cabc fwd="223.38.30.179" dyno=web.1 connect=0ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:17:14.372779+00:00 app[web.1]: {
+2020-06-08T23:17:14.372791+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:17:14.372791+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:17:14.372793+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:17:14.372794+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:17:14.372795+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:17:14.372796+00:00 app[web.1]: 'x-request-id': '02a01bca-7267-4f25-8800-6ab38c40cabc',
+2020-06-08T23:17:14.372797+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:17:14.372797+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:17:14.372798+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:17:14.372798+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:17:14.372798+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:17:14.372799+00:00 app[web.1]: 'x-request-start': '1591658234366',
+2020-06-08T23:17:14.372799+00:00 app[web.1]: 'total-route-time': '1',
+2020-06-08T23:17:14.372800+00:00 app[web.1]: 'content-length': '86'
+2020-06-08T23:17:14.372800+00:00 app[web.1]: }
+2020-06-08T23:17:14.373090+00:00 app[web.1]: 86 bytes of data
+2020-06-08T23:17:14.373269+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:17:14.373450+00:00 app[web.1]: {
+2020-06-08T23:17:14.373451+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:17:14.373451+00:00 app[web.1]: dt: '2020-06-09 08:17:12',
+2020-06-08T23:17:14.373451+00:00 app[web.1]: lat: 37.545636,
+2020-06-08T23:17:14.373452+00:00 app[web.1]: lng: 127.0494364
+2020-06-08T23:17:14.373452+00:00 app[web.1]: }
+2020-06-08T23:17:14.528991+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:17:14.529041+00:00 app[web.1]: null
+2020-06-08T23:17:14.529107+00:00 app[web.1]: 5edec6fa1e4a0600172d3794
+2020-06-08T23:18:13.311837+00:00 app[web.1]: {
+2020-06-08T23:18:13.311848+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:18:13.311848+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:18:13.311849+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:18:13.311850+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:18:13.311851+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:18:13.311852+00:00 app[web.1]: 'x-request-id': 'c288f588-69b3-4aba-85ce-6f004e2e892f',
+2020-06-08T23:18:13.311852+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:18:13.311853+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:18:13.311853+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:18:13.311854+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:18:13.311854+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:18:13.311854+00:00 app[web.1]: 'x-request-start': '1591658293307',
+2020-06-08T23:18:13.311855+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:18:13.311855+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:18:13.311856+00:00 app[web.1]: }
+2020-06-08T23:18:13.311962+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:18:13.312069+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:18:13.312173+00:00 app[web.1]: {
+2020-06-08T23:18:13.312174+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:18:13.312174+00:00 app[web.1]: dt: '2020-06-09 08:18:12',
+2020-06-08T23:18:13.312175+00:00 app[web.1]: lat: 37.5456332,
+2020-06-08T23:18:13.312175+00:00 app[web.1]: lng: 127.0494319
+2020-06-08T23:18:13.312176+00:00 app[web.1]: }
+2020-06-08T23:18:13.315506+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=c288f588-69b3-4aba-85ce-6f004e2e892f fwd="223.38.30.179" dyno=web.1 connect=0ms service=1ms status=200 bytes=174 protocol=https
+2020-06-08T23:18:13.347579+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:18:13.347618+00:00 app[web.1]: null
+2020-06-08T23:18:13.347675+00:00 app[web.1]: 5edec7351e4a0600172d3795
+2020-06-08T23:19:14.223508+00:00 app[web.1]: {
+2020-06-08T23:19:14.223518+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:19:14.223519+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:19:14.223519+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:19:14.223520+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:19:14.223520+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:19:14.223521+00:00 app[web.1]: 'x-request-id': '4b40549c-3db0-493c-8f57-8dbf6cc5b3a9',
+2020-06-08T23:19:14.223521+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:19:14.223522+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:19:14.223522+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:19:14.223522+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:19:14.223523+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:19:14.223523+00:00 app[web.1]: 'x-request-start': '1591658354221',
+2020-06-08T23:19:14.223523+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:19:14.223524+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:19:14.223524+00:00 app[web.1]: }
+2020-06-08T23:19:14.224198+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:19:14.224286+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:19:14.224378+00:00 app[web.1]: {
+2020-06-08T23:19:14.224379+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:19:14.224380+00:00 app[web.1]: dt: '2020-06-09 08:19:12',
+2020-06-08T23:19:14.224380+00:00 app[web.1]: lat: 37.5456422,
+2020-06-08T23:19:14.224380+00:00 app[web.1]: lng: 127.0494246
+2020-06-08T23:19:14.224381+00:00 app[web.1]: }
+2020-06-08T23:19:14.226024+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=4b40549c-3db0-493c-8f57-8dbf6cc5b3a9 fwd="223.38.30.179" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:19:14.332510+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:19:14.332555+00:00 app[web.1]: null
+2020-06-08T23:19:14.332624+00:00 app[web.1]: 5edec7721e4a0600172d3796
+2020-06-08T23:20:13.311488+00:00 app[web.1]: {
+2020-06-08T23:20:13.311502+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:20:13.311502+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:20:13.311503+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:20:13.311504+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:20:13.311505+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:20:13.311505+00:00 app[web.1]: 'x-request-id': 'cebeb559-ba24-42fa-bef4-b21543d49fcd',
+2020-06-08T23:20:13.311506+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:20:13.311506+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:20:13.311506+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:20:13.311507+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:20:13.311507+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:20:13.311508+00:00 app[web.1]: 'x-request-start': '1591658413304',
+2020-06-08T23:20:13.311508+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:20:13.311508+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:20:13.311509+00:00 app[web.1]: }
+2020-06-08T23:20:13.312046+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:20:13.312340+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:20:13.312472+00:00 app[web.1]: {
+2020-06-08T23:20:13.312473+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:20:13.312473+00:00 app[web.1]: dt: '2020-06-09 08:20:12',
+2020-06-08T23:20:13.312474+00:00 app[web.1]: lat: 37.5456403,
+2020-06-08T23:20:13.312474+00:00 app[web.1]: lng: 127.0494276
+2020-06-08T23:20:13.312474+00:00 app[web.1]: }
+2020-06-08T23:20:13.314419+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=cebeb559-ba24-42fa-bef4-b21543d49fcd fwd="223.38.30.179" dyno=web.1 connect=1ms service=7ms status=200 bytes=174 protocol=https
+2020-06-08T23:20:13.358285+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:20:13.358339+00:00 app[web.1]: null
+2020-06-08T23:20:13.358385+00:00 app[web.1]: 5edec7ad1e4a0600172d3797
+2020-06-08T23:21:14.190880+00:00 app[web.1]: {
+2020-06-08T23:21:14.190890+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:21:14.190891+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:21:14.190892+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:21:14.190894+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:21:14.190895+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:21:14.190896+00:00 app[web.1]: 'x-request-id': '5acc7007-fcbc-40ea-b8df-a0f2be06939b',
+2020-06-08T23:21:14.190896+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:21:14.190897+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:21:14.190897+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:21:14.190898+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:21:14.190898+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:21:14.190898+00:00 app[web.1]: 'x-request-start': '1591658474187',
+2020-06-08T23:21:14.190899+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:21:14.190899+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:21:14.190900+00:00 app[web.1]: }
+2020-06-08T23:21:14.191113+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:21:14.191232+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:21:14.191341+00:00 app[web.1]: {
+2020-06-08T23:21:14.191342+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:21:14.191342+00:00 app[web.1]: dt: '2020-06-09 08:21:12',
+2020-06-08T23:21:14.191343+00:00 app[web.1]: lat: 37.5456393,
+2020-06-08T23:21:14.191343+00:00 app[web.1]: lng: 127.0494338
+2020-06-08T23:21:14.191343+00:00 app[web.1]: }
+2020-06-08T23:21:14.192212+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=5acc7007-fcbc-40ea-b8df-a0f2be06939b fwd="223.38.30.179" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:21:14.410406+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:21:14.410453+00:00 app[web.1]: null
+2020-06-08T23:21:14.410505+00:00 app[web.1]: 5edec7ea1e4a0600172d3798
+2020-06-08T23:22:13.300130+00:00 app[web.1]: {
+2020-06-08T23:22:13.300142+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:22:13.301580+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:22:13.301615+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:22:13.301619+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:22:13.301620+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:22:13.301620+00:00 app[web.1]: 'x-request-id': '0635381c-117d-4c71-98f7-ed09e988fba0',
+2020-06-08T23:22:13.301621+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:22:13.301621+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:22:13.301621+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:22:13.301622+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:22:13.301623+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:22:13.301623+00:00 app[web.1]: 'x-request-start': '1591658533295',
+2020-06-08T23:22:13.301624+00:00 app[web.1]: 'total-route-time': '1',
+2020-06-08T23:22:13.301624+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:22:13.301625+00:00 app[web.1]: }
+2020-06-08T23:22:13.301632+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:22:13.301633+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:22:13.301633+00:00 app[web.1]: {
+2020-06-08T23:22:13.301634+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:22:13.301634+00:00 app[web.1]: dt: '2020-06-09 08:22:12',
+2020-06-08T23:22:13.301635+00:00 app[web.1]: lat: 37.5456546,
+2020-06-08T23:22:13.301635+00:00 app[web.1]: lng: 127.0494077
+2020-06-08T23:22:13.301635+00:00 app[web.1]: }
+2020-06-08T23:22:13.306898+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=0635381c-117d-4c71-98f7-ed09e988fba0 fwd="223.38.30.179" dyno=web.1 connect=1ms service=3ms status=200 bytes=174 protocol=https
+2020-06-08T23:22:13.346440+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:22:13.346474+00:00 app[web.1]: null
+2020-06-08T23:22:13.346546+00:00 app[web.1]: 5edec8251e4a0600172d3799
+2020-06-08T23:23:14.399834+00:00 app[web.1]: {
+2020-06-08T23:23:14.399844+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:23:14.399845+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:23:14.399845+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:23:14.399846+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:23:14.399846+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:23:14.399847+00:00 app[web.1]: 'x-request-id': '00c026e1-2686-40ee-a6cb-0bc276d7308c',
+2020-06-08T23:23:14.399847+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:23:14.399848+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:23:14.399848+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:23:14.399848+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:23:14.399849+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:23:14.399849+00:00 app[web.1]: 'x-request-start': '1591658594396',
+2020-06-08T23:23:14.399849+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:23:14.399850+00:00 app[web.1]: 'content-length': '86'
+2020-06-08T23:23:14.399851+00:00 app[web.1]: }
+2020-06-08T23:23:14.399952+00:00 app[web.1]: 86 bytes of data
+2020-06-08T23:23:14.400044+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:23:14.400150+00:00 app[web.1]: {
+2020-06-08T23:23:14.400151+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:23:14.400151+00:00 app[web.1]: dt: '2020-06-09 08:23:12',
+2020-06-08T23:23:14.400152+00:00 app[web.1]: lat: 37.5456415,
+2020-06-08T23:23:14.400152+00:00 app[web.1]: lng: 127.049415
+2020-06-08T23:23:14.400152+00:00 app[web.1]: }
+2020-06-08T23:23:14.403214+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=00c026e1-2686-40ee-a6cb-0bc276d7308c fwd="223.38.30.179" dyno=web.1 connect=0ms service=5ms status=200 bytes=174 protocol=https
+2020-06-08T23:23:14.570862+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:23:14.570921+00:00 app[web.1]: null
+2020-06-08T23:23:14.571009+00:00 app[web.1]: 5edec8621e4a0600172d379a
+2020-06-08T23:24:13.423191+00:00 app[web.1]: {
+2020-06-08T23:24:13.423200+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:24:13.423200+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:24:13.423201+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:24:13.423202+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:24:13.423202+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:24:13.423203+00:00 app[web.1]: 'x-request-id': '848b595f-a202-4f94-8ab6-b5cf5e10c10d',
+2020-06-08T23:24:13.423203+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:24:13.423203+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:24:13.423204+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:24:13.423204+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:24:13.423205+00:00 app[web.1]: 'connect-time': '0',
+2020-06-08T23:24:13.423205+00:00 app[web.1]: 'x-request-start': '1591658653419',
+2020-06-08T23:24:13.423205+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:24:13.423206+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:24:13.423206+00:00 app[web.1]: }
+2020-06-08T23:24:13.425490+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:24:13.425558+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:24:13.425684+00:00 app[web.1]: {
+2020-06-08T23:24:13.425685+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:24:13.425685+00:00 app[web.1]: dt: '2020-06-09 08:24:12',
+2020-06-08T23:24:13.425685+00:00 app[web.1]: lat: 37.5456476,
+2020-06-08T23:24:13.425686+00:00 app[web.1]: lng: 127.0494384
+2020-06-08T23:24:13.425686+00:00 app[web.1]: }
+2020-06-08T23:24:13.428529+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=848b595f-a202-4f94-8ab6-b5cf5e10c10d fwd="223.38.30.179" dyno=web.1 connect=0ms service=7ms status=200 bytes=174 protocol=https
+2020-06-08T23:24:13.476618+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:24:13.476672+00:00 app[web.1]: null
+2020-06-08T23:24:13.476895+00:00 app[web.1]: 5edec89d1e4a0600172d379b
+2020-06-08T23:25:14.267312+00:00 app[web.1]: {
+2020-06-08T23:25:14.267323+00:00 app[web.1]: host: 'qopor.herokuapp.com',
+2020-06-08T23:25:14.267323+00:00 app[web.1]: connection: 'close',
+2020-06-08T23:25:14.267324+00:00 app[web.1]: 'content-type': 'application/json',
+2020-06-08T23:25:14.267326+00:00 app[web.1]: 'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 7.1.1; SM-N950N Build/NMF26X)',
+2020-06-08T23:25:14.267327+00:00 app[web.1]: 'accept-encoding': 'gzip',
+2020-06-08T23:25:14.267328+00:00 app[web.1]: 'x-request-id': 'b3610476-d8f2-491b-acea-d0055f2ac812',
+2020-06-08T23:25:14.267329+00:00 app[web.1]: 'x-forwarded-for': '223.38.30.179',
+2020-06-08T23:25:14.267329+00:00 app[web.1]: 'x-forwarded-proto': 'https',
+2020-06-08T23:25:14.267329+00:00 app[web.1]: 'x-forwarded-port': '443',
+2020-06-08T23:25:14.267330+00:00 app[web.1]: via: '1.1 vegur',
+2020-06-08T23:25:14.267330+00:00 app[web.1]: 'connect-time': '1',
+2020-06-08T23:25:14.267330+00:00 app[web.1]: 'x-request-start': '1591658714267',
+2020-06-08T23:25:14.267331+00:00 app[web.1]: 'total-route-time': '0',
+2020-06-08T23:25:14.267331+00:00 app[web.1]: 'content-length': '87'
+2020-06-08T23:25:14.267331+00:00 app[web.1]: }
+2020-06-08T23:25:14.267973+00:00 app[web.1]: 87 bytes of data
+2020-06-08T23:25:14.268064+00:00 app[web.1]: post body 다 읽었다
+2020-06-08T23:25:14.268169+00:00 app[web.1]: {
+2020-06-08T23:25:14.268170+00:00 app[web.1]: id: '673701d7b3d78ff2',
+2020-06-08T23:25:14.268170+00:00 app[web.1]: dt: '2020-06-09 08:25:12',
+2020-06-08T23:25:14.268171+00:00 app[web.1]: lat: 37.5456426,
+2020-06-08T23:25:14.268171+00:00 app[web.1]: lng: 127.0494274
+2020-06-08T23:25:14.268171+00:00 app[web.1]: }
+2020-06-08T23:25:14.271741+00:00 heroku[router]: at=info method=POST path="/" host=qopor.herokuapp.com request_id=b3610476-d8f2-491b-acea-d0055f2ac812 fwd="223.38.30.179" dyno=web.1 connect=1ms service=2ms status=200 bytes=174 protocol=https
+2020-06-08T23:25:14.379954+00:00 app[web.1]: aaaaa insert
+2020-06-08T23:25:14.380064+00:00 app[web.1]: null
+2020-06-08T23:25:14.380129+00:00 app[web.1]: 5edec8da1e4a0600172d379c
