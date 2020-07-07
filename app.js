@@ -1,12 +1,20 @@
+var express = require('express');
 var app = require('express')();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var port = process.env.PORT || 8080;
 
+
+app.use('/s01', express.static(__dirname + '/s01'));
+		
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/index.html');
 });
-
+/*
+app.get('/s01/index.html', function(req, res){
+	res.sendFile(__dirname + '/s01/index.html');
+});
+*/
 
 io.on('connection', function(socket){
 	  // 접속한 클라이언트의 정보가 수신되면
