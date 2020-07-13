@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Socket.io Chat Example</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-  <div class="container">
-    <h3>Socket.io Chat Example</h3>
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="msgForm">Message: </label>
-        <input type="text" class="form-control" id="msgForm">
-      </div>
-      <button type="submit" class="btn btn-primary">Send</button>
-    </form>
-    <div id="chatLogs"></div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Socket.io Chat Example</title>
+	<!-- jquery 3.5.1 cdn start -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<!-- jquery 3.5.1 cdn end -->
+	
+	
+	<!-- bootstrap 4.5.0 cdn start -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<!-- bootstrap 4.5.0 cdn end -->
+	
+	<!-- socket.io serverVersion start -->
+	<script src="/socket.io/socket.io.js"></script>
+	<!-- socket.io serverVersion end -->
+	
+	<style>
+		div.col {
+			border: 1px solid #dadada;
+			background-color: #eeeeee;
+		}
+	</style>
   <script>
   $(function(){
     // socket.io 서버에 접속한다
@@ -33,22 +39,23 @@
 
     // 서버로부터의 메시지가 수신되면
     socket.on("login", function(data) {
-      $("#chatLogs").append("<div><strong>" + data + "</strong> has joined</div>");
+      $("#chatDisplay").append(data + " 입장했습니다. \n");
     });
 
     // 서버로부터의 메시지가 수신되면
     socket.on("chat", function(data) {
-      $("#chatLogs").append("<div>" + data.msg + " : from <strong>" + data.from.name + "</strong></div>");
+      $("#chatDisplay").append(data.from.name + " : " + data.msg + " \n");
     });
 
     // Send 버튼이 클릭되면
-    $("form").submit(function(e) {
-      e.preventDefault();
-      var $msgForm = $("#msgForm");
-
-      // 서버로 메시지를 전송한다.
-      socket.emit("chat", { msg: $msgForm.val() });
-      $msgForm.val("");
+    $("#chatSend").on("click", function() {
+    	var j_chatInput = $("#chatInput");
+		if($.trim( j_chatInput.val() ) != ""){
+			// 서버로 메시지를 전송한다.
+			socket.emit("chat", { msg: j_chatInput.val() });
+				$("#chatDisplay").append("[나] : " + j_chatInput.val() + " \n");
+			j_chatInput.val("");
+		}
     });
 
     function makeRandomName(){
@@ -61,5 +68,113 @@
     }
   });
   </script>
+</head>
+<body>
+	<div class="container">
+		<div class="row row-cols-1 row-cols-xl-2">
+			<div class="col">
+				<div class="row row-cols-2 row-cols-xl-4">
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h4>user1</h4>
+							</div>
+							<div class="card-body">
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>바나나</li>
+									<li>1</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="">user2</h4>
+							</div>
+							<div class="card-body">
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>딸기</li>
+									<li>1</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="">user3</h4>
+							</div>
+							<div class="card-body">
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>딸기</li>
+									<li>1</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="">user4</h4>
+							</div>
+							<div class="card-body">
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>딸기</li>
+									<li>4</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p>
+							남은카드
+						</p>
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-primary btn-block">벨</button>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<form>
+					<div class="form-group">
+						<label for="chatDisplay">채팅로그</label>
+						<textarea class="form-control" id="chatDisplay" rows="3" readonly ></textarea>
+					</div>
+					
+					<div class="form-row align-items-center">
+						<div class="col-auto my-1">
+							<label for="chatInput">사용자명</label>
+						</div>
+						<div class="col my-1">
+							<input type="text" class="form-control" id="chatInput" placeholder="dadadak.." />
+						</div>
+						<div class="col-auto my-1">
+							<button type="button" class="btn btn-primary" id="chatSend" >전송</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- 
+  <div class="container">
+    <h3>Socket.io Chat Example</h3>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="msgForm">Message: </label>
+        <input type="text" class="form-control" id="msgForm">
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+    <div id="chatLogs"></div>
+  </div>
+-->
 </body>
 </html>
