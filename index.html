@@ -25,26 +25,39 @@
 			background-color: #eeeeee;
 		}
 	</style>
-  <script>
-  $(function(){
+
+<script>
+var socket;
+var player;
+$(function(){
     // socket.io 서버에 접속한다
-    var socket = io();
+    socket = io();
 
     // 서버로 자신의 정보를 전송한다.
-    socket.emit("login", {
-      // name: "ungmo2",
-      name: makeRandomName(),
-      userid: "ungmo2@gmail.com"
-    });
+    // socket.emit("login", {
+    //   // name: "ungmo2",
+    //   name: makeRandomName(),
+    //   userid: "ungmo2@gmail.com"
+    // });
 
     // 서버로부터의 메시지가 수신되면
     socket.on("login", function(data) {
-      $("#chatDisplay").append(data + " 입장했습니다. \n");
+    	$("#chatDisplay").append(data.name + " 입장했습니다. \n");
+		
+		fn_addPlayer(data);
     });
 
     // 서버로부터의 메시지가 수신되면
     socket.on("chat", function(data) {
       $("#chatDisplay").append(data.from.name + " : " + data.msg + " \n");
+    });
+
+    // 서버로부터의 메시지가 수신되면
+    socket.on("currentUser", function(data) {
+		console.log("currentUser");
+    	console.log(data);
+		
+		fn_currPlayer(data);
     });
 
     // Send 버튼이 클릭되면
@@ -58,23 +71,90 @@
 		}
     });
 
-    function makeRandomName(){
-      var name = "";
-      var possible = "abcdefghijklmnopqrstuvwxyz";
-      for( var i = 0; i < 3; i++ ) {
-        name += possible.charAt(Math.floor(Math.random() * possible.length));
-      }
-      return name;
-    }
-  });
-  </script>
+    
+	player = new Player();
+	player.login();
+});
+
+
+	  
+	  
+
+class Player {
+	constructor(name){
+		if(name === undefined){
+			this._name = fn_makeRandomName();
+		}
+		else{
+			this._name = name;
+		}
+	}
+	
+	login(){
+		// server에 로그인보냄
+		socket.emit("login", {
+			name: this._name,
+			userid: "ungmo2@gmail.com"
+		});	
+		console.log(`hi! ${this._name}`);
+		
+		// DIV추가
+		
+	}
+}
+	
+function fn_currPlayer(data){
+	console.log(data);
+	for(var i=0; i<data.length; i++){
+		fn_addPlayer(data[i]);
+	}
+}	
+
+function fn_addPlayer(data){
+	var HTML = '';
+	HTML += '<div class="col py-3" id="sid_'+data.sid+'" >';
+	HTML += '	<div class="card">';
+	HTML += '		<div class="card-header">';
+	HTML += '			<h4>'+data.name+'</h4>';
+	HTML += '		</div>';
+	HTML += '		<div class="card-body">';
+	HTML += '			<ul class="list-unstyled mt-3 mb-4">';
+	HTML += '				<li></li>';
+	HTML += '				<li></li>';
+	HTML += '			</ul>';
+	HTML += '		</div>';
+	HTML += '	</div>';
+	HTML += '</div>';
+	$('#playerDiv').append(HTML);
+}
+	  
+function fn_makeRandomName(){
+	var name = "";
+	var possible = "abcdefghijklmnopqrstuvwxyz";
+	for( var i = 0; i < 3; i++ ) {
+		name += possible.charAt(Math.floor(Math.random() * possible.length));
+	}
+	return name;
+}
+	  
+// var
+// // Game vars //
+// player = {
+// 	frame: 0,
+// 	acc: function(){
+// 		console.log("AA");
+// 	}
+// }
+</script>
 </head>
 <body>
 	<div class="container">
 		<div class="row row-cols-1 row-cols-xl-2">
 			<div class="col">
-				<div class="row row-cols-2 row-cols-xl-4">
-					<div class="col">
+				<!-- user card start -->
+				<div class="row row-cols-2 row-cols-xl-4" id="playerDiv" >
+					<!-- 
+					<div class="col py-3">
 						<div class="card">
 							<div class="card-header">
 								<h4>user1</h4>
@@ -88,7 +168,7 @@
 						</div>
 					</div>
 					
-					<div class="col">
+					<div class="col py-3">
 						<div class="card">
 							<div class="card-header">
 								<h4 class="">user2</h4>
@@ -102,7 +182,7 @@
 						</div>
 					</div>
 					
-					<div class="col">
+					<div class="col py-3">
 						<div class="card">
 							<div class="card-header">
 								<h4 class="">user3</h4>
@@ -116,7 +196,7 @@
 						</div>
 					</div>
 					
-					<div class="col">
+					<div class="col py-3">
 						<div class="card">
 							<div class="card-header">
 								<h4 class="">user4</h4>
@@ -129,7 +209,9 @@
 							</div>
 						</div>
 					</div>
+					-->
 				</div>
+				<!-- user card end -->
 				<div class="row">
 					<div class="col">
 						<p>

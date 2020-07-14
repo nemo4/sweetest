@@ -16,6 +16,8 @@ app.get('/s01/index.html', function(req, res){
 });
 */
 
+var users = [];
+
 io.on('connection', function(socket){
 	  // 접속한 클라이언트의 정보가 수신되면
   socket.on('login', function(data) {
@@ -24,9 +26,18 @@ io.on('connection', function(socket){
     // socket에 클라이언트 정보를 저장한다
     socket.name = data.name;
     socket.userid = data.userid;
-
+	
+	//console.log(io.sockets.clients());
+	  console.log(socket.id);
+	  
+	// 현재사용자 목록 보내줌
+	io.to(socket.id).emit('currentUser', users);
+	  
     // 접속된 모든 클라이언트에게 메시지를 전송한다
-    io.emit('login', data.name );
+    io.emit('login', {sid: socket.id, name: data.name});
+	  
+	users.push({sid: socket.id, name: data.name});
+	console.log(users);
   });
 
   // 클라이언트로부터의 메시지가 수신되면
@@ -61,6 +72,9 @@ io.on('connection', function(socket){
 
   socket.on('disconnect', function() {
     console.log('user disconnected: ' + socket.name);
+	
+	// 접속된 모든 클라이언트에게 메시지를 전송한다
+    io.emit('login', {sid: socket.id, name: data.name});
   });
 });
 
